@@ -1,0 +1,33 @@
+{
+  "name": "nekolife.js",
+  "version": "1.9.5",
+  "description": "A API Wrapper for Neko.life",
+  "main": "src/index.js",
+  "types": "typings/index.d.ts",
+  "scripts": {
+    "test": "eslint src && tslint 'typings/*.ts'",
+    "lint": "eslint --fix src test && tslint --fix 'typings/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Looney-Dev/Nekolife.js.git"
+  },
+  "keywords": [
+    "nodeJS",
+    "neko"
+  ],
+  "author": "Jacz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Looney-Dev/Nekolife.js/issues"
+  },
+  "homepage": "https://github.com/Looney-Dev/Nekolife.js#readme",
+  "dependencies": {
+    "snekfetch": "^3.5.8"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  }
+}
