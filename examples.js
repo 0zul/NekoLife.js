@@ -1,4 +1,4 @@
-const neko = require("neko.js");
+const neko = require("nekolife.js");
 
 let nekoclient = new neko.Client(); // default api key is defaulted :D
 
