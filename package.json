@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Looney-Dev/Nekolife.js#readme",
   "dependencies": {
-    "snekfetch": "^3.5.8"
+    "snekfetch": "^4.0.0"
   },
   "devDependencies": {
     "eslint": "^4.11.0",
