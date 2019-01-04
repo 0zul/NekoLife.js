@@ -1,10 +1,10 @@
 
 [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/nekolife.js)
 [![npm](https://img.shields.io/npm/dt/nekolife.js.svg?maxAge=3600)](https://www.npmjs.com/package/nekolife.js)
-[![David](https://david-dm.org/MrJacz/nekolife.js.svg)](https://david-dm.org/Looney-Dev/NekoLife.js)
+[![David](https://david-dm.org/Looney-Dev/NekoLife.js.svg)](https://david-dm.org/Looney-Dev/NekoLife.js)
 
 [![NPM](https://nodei.co/npm/nekolife.js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/nekolife.js/)
-# Neko.js
+# NekoLife.js
 API Wrapper for [Nekos.life: https://nekos.life](https://nekos.life)
 
 
