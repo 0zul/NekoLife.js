@@ -26,26 +26,26 @@ module.exports = class NekoClient {
     */
 
     pat() {
-        return this._get(`/pat`);
+        return this._get(`v2/img/pat`);
     }
     /** Hug image
      * @returns {Promise<Object>}
      */
 
     hug() {
-        return this._get(`/hug`);
+        return this._get(`v2/img/hug`);
     }
     /** Kiss <3 image
      * @returns {Promise<Object>}
      */
     kiss() {
-        return this._get(`/kiss`);
+        return this._get(`v2/img/kiss`);
     }
     /** oWo Neko <3 image
      * @returns {Promise<Object>}
      */
     neko() {
-        return this._get(`/neko`);
+        return this._get(`v2/img/neko`);
     }
     /** Why? joke
     * @returns {Promise<Object>}
@@ -64,7 +64,7 @@ module.exports = class NekoClient {
      * @returns {Promise<Object>}
      */
     lizard() {
-        return this._get(`/lizard`);
+        return this._get(`v2/img/lizard`);
     
     }
 
@@ -73,7 +73,7 @@ module.exports = class NekoClient {
      */
 
     slap() {
-        return this._get(`/slap`);
+        return this._get(`v2/img/slap`);
     }
 
     /** Poke image
@@ -81,8 +81,82 @@ module.exports = class NekoClient {
      */
 
     poke() {
-        return this._get(`/img/poke`);
+        return this._get(`v2/img/poke`);
     }
+
+      /** Cuddle image
+     * @returns {Promise<Object>}
+     */
+
+    cuddle() {
+        return this._get(`v2/img/cuddle`);
+    }
+
+      /** Tickle image
+     * @returns {Promise<Object>}
+     */
+
+    tickle() {
+        return this._get(`v2/img/tickle`);
+    }
+
+     /** Poke image
+     * @returns {Promise<Object>}
+     */
+
+    poke() {
+        return this._get(`v2/img/poke`);
+    }
+
+  /** 8Ball image
+     * @returns {Promise<Object>}
+     */
+
+    Eightball() {
+        return this._get(`v2/img/8ball`);
+    }
+
+    /** Femdom image
+     * @returns {Promise<Object>}
+     */
+
+    femdom() {
+        return this._get(`v2/img/femdom`);
+    }
+
+    /** Classic image
+     * @returns {Promise<Object>}
+     */
+
+    classicl() {
+        return this._get(`v2/img/classic`);
+    }
+
+     /** Ngif image
+     * @returns {Promise<Object>}
+     */
+
+    ngif() {
+        return this._get(`v2/img/ngif`);
+    }
+
+ /** EroFeet image
+     * @returns {Promise<Object>}
+     */
+
+    erofeet() {
+        return this._get(`v2/img/erofeet`);
+    }
+
+ /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    meow() {
+        return this._get(`v2/img/meow`);
+    }
+
+
 
     /**
      * @private
@@ -92,7 +166,7 @@ module.exports = class NekoClient {
 
     _get(endpoint) {
         return new Promise((resolve, reject) => {
-            snek.get(`https://nekos.life/api/v2${endpoint}`)
+            snek.get(`https://nekos.life/api/${endpoint}`)
                 .set("Key", this.key)
                 .then(res => {
                     if (res.status !== 200) return reject(res);

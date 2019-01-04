@@ -1,7 +1,7 @@
 {
   "name": "nekolife.js",
-  "version": "1.9.5",
-  "description": "A API Wrapper for Neko.life",
+  "version": "2.0.5",
+  "description": "A API Wrapper for Nekos.life",
   "main": "src/index.js",
   "types": "typings/index.d.ts",
   "scripts": {
