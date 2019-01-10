@@ -1,6 +1,6 @@
 const neko = require("nekolife.js");
 
-let nekoclient = new neko.Client(); // default api key is defaulted :D
+let nekoclient = new Neko.Client(); // default api key is defaulted :D
 
     // Asynchronous(Async/await) examples.
 
