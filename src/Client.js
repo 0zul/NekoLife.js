@@ -52,7 +52,7 @@ module.exports = class NekoClient {
     */
 
     why() {
-        return this._get(`/why`);
+        return this._get(`v2/why`);
     }
     /** LewdNeko <3 image
      * @returns {Promise<Object>}
@@ -177,7 +177,7 @@ module.exports = class NekoClient {
      */
 
     CatText() {
-        return this._get(`cat`);
+        return this._get(`v2/cat`);
     }
 
  /** Meow image
@@ -185,7 +185,7 @@ module.exports = class NekoClient {
      */
 
     OwOify() {
-        return this._get(`owoify`);
+        return this._get(`v2/owoify`);
     }
 
  /** Meow image
