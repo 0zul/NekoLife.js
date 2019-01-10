@@ -58,7 +58,7 @@ module.exports = class NekoClient {
      * @returns {Promise<Object>}
      */
     LewdNeko() {
-        return this._get(`/lewd/neko`);
+        return this._get(`v2/lewd/neko`);
     }
     /** Lizard image
      * @returns {Promise<Object>}
@@ -156,8 +156,205 @@ module.exports = class NekoClient {
         return this._get(`v2/img/meow`);
     }
 
+ /** Meow image
+     * @returns {Promise<Object>}
+     */
 
+    FoxGirl() {
+        return this._get(`v2/img/fox_girl`);
+    }
 
+ /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    feed() {
+        return this._get(`v2/img/feed`);
+    }
+
+ /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    CatText() {
+        return this._get(`cat`);
+    }
+
+ /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    OwOify() {
+        return this._get(`owoify`);
+    }
+
+ /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    Kemonomimi() {
+        return this._get(`v2/img/kemonomimi`);
+    }
+
+ /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    holo() {
+        return this._get(`v2/img/holo`);
+    }
+
+ /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    baka() {
+        return this._get(`v2/img/baka`);
+    }
+
+ /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    woof() {
+        return this._get(`v2/img/woof`);
+    }
+
+/** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    smug() {
+        return this._get(`v2/img/smug`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    RandomHentaiGif() {
+        return this._get(`v2/img/Random_hentai_gif`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    pussy() {
+        return this._get(`v2/img/pussy`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    lesbian() {
+        return this._get(`v2/img/les`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    CumSlut() {
+        return this._get(`v2/img/cum`);
+    }
+
+    /** boobs image
+     * @returns {Promise<Object>}
+     */
+
+    boobs() {
+        return this._get(`v2/img/boobs`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    anal() {
+        return this._get(`v2/img/anal`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    NsfwAvatar() {
+        return this._get(`v2/img/nafw_avatar`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    yuri() {
+        return this._get(`v2/img/yuri`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    trap() {
+        return this._get(`v2/img/trap`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    tits() {
+        return this._get(`v2/img/tits`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    GirlSoloGif() {
+        return this._get(`v2/img/solog`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    GirlSolo() {
+        return this._get(`v2/img/solo`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    SmallBoobs() {
+        return this._get(`v2/img/smallboobs`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    PussyWankGif() {
+        return this._get(`v2/img/pwankg`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    PussyArt() {
+        return this._get(`v2/img/pussy_jpg`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    LewdKemonomimi() {
+        return this._get(`v2/img/lewdkemo`);
+    }
     /**
      * @private
      * @param {string} endpoint

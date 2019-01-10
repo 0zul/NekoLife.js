@@ -1,6 +1,6 @@
 {
   "name": "nekolife.js",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "An API Wrapper for Nekos.life",
   "main": "src/index.js",
   "types": "typings/index.d.ts",
