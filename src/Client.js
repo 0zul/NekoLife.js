@@ -100,13 +100,6 @@ module.exports = class NekoClient {
         return this._get(`v2/img/tickle`);
     }
 
-     /** Poke image
-     * @returns {Promise<Object>}
-     */
-
-    poke() {
-        return this._get(`v2/img/poke`);
-    }
 
   /** 8Ball image
      * @returns {Promise<Object>}
@@ -144,7 +137,7 @@ module.exports = class NekoClient {
      * @returns {Promise<Object>}
      */
 
-    erofeet() {
+    EroFeet() {
         return this._get(`v2/img/erofeet`);
     }
 
@@ -355,6 +348,119 @@ module.exports = class NekoClient {
     LewdKemonomimi() {
         return this._get(`v2/img/lewdkemo`);
     }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    kitsune() {
+        return this._get(`v2/img/lewdk`);
+    }
+
+    /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    keta() {
+        return this._get(`v2/img/keta`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    HoloLewd() {
+        return this._get(`v2/img/hololewd`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    HoloEro() {
+        return this._get(`v2/img/holoero`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    hentai() {
+        return this._get(`v2/img/hentai`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    futanari() {
+        return this._get(`v2/img/futanari`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    FeetGif() {
+        return this._get(`v2/img/feetg`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    feet() {
+        return this._get(`v2/img/feet`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    ero() {
+        return this._get(`v2/img/ero`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    EroKitsune() {
+        return this._get(`v2/img/erok`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    EroNeko() {
+        return this._get(`v2/img/eron`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    EroYuri() {
+        return this._get(`v2/img/eroyuri`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    CumArts() {
+        return this._get(`v2/img/cum_jpg`);
+    }
+
+        /** Meow image
+     * @returns {Promise<Object>}
+     */
+
+    blowjob() {
+        return this._get(`v2/img/blowjob`);
+    }
+
     /**
      * @private
      * @param {string} endpoint
